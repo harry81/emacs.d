@@ -93,6 +93,7 @@
 (require 'init-css)
 (require 'init-haml)
 (require 'init-python-mode)
+(require 'init-venv)
 (require 'init-haskell)
 (require 'init-elm)
 (require 'init-ruby-mode)
