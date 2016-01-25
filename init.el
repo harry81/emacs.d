@@ -78,6 +78,7 @@
 (require 'init-darcs)
 (require 'init-git)
 (require 'init-github)
+(require 'init-yasnippet)
 
 (require 'init-compile)
 (require 'init-crontab)
