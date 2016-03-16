@@ -100,6 +100,7 @@
 (require 'init-ruby-mode)
 (require 'init-rails)
 (require 'init-sql)
+(require 'init-projectile)
 
 (require 'init-paredit)
 (require 'init-lisp)
