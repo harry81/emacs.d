@@ -1,0 +1,9 @@
+[submodule "elpa/yasnippet-20160131.948/snippets/-f"]
+	path = elpa/yasnippet-20160131.948/snippets/-f
+	url = git@github.com:hyunminchoi81/yasnippet-snippets.git
+[submodule "elpa/yasnippet-20160131.948/snippets/yasnippet-snippets"]
+	path = elpa/yasnippet-20160131.948/snippets/yasnippet-snippets
+	url = git@github.com:hyunminchoi81/yasnippet-snippets.git
+[submodule "elpa/yasnippet-20160131.948/yasnippet-snippets"]
+	path = elpa/yasnippet-20160131.948/yasnippet-snippets
+	url = git@github.com:hyunminchoi81/yasnippet-snippets.git

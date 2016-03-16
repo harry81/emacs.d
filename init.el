@@ -79,6 +79,7 @@
 (require 'init-git)
 (require 'init-github)
 (require 'init-yasnippet)
+(require 'init-ox-reveal)
 
 (require 'init-compile)
 (require 'init-crontab)
@@ -166,3 +167,4 @@
 ;; coding: utf-8
 ;; no-byte-compile: t
 ;; End:
+
