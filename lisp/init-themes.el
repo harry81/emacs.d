@@ -76,5 +76,5 @@ ignored: use `custom-enabled-themes' instead."
   (interactive)
   (color-theme-sanityinc-tomorrow-night))
 
-
+`night
 (provide 'init-themes)
