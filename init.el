@@ -81,6 +81,7 @@
 (require 'init-github)
 (require 'init-yasnippet)
 (require 'init-ox-reveal)
+(require 'init-fill-column-indicator)
 
 (require 'init-compile)
 (require 'init-crontab)
@@ -162,6 +163,8 @@
             (message "init completed in %.2fms"
                      (sanityinc/time-subtract-millis after-init-time before-init-time))))
 
+
+(global-linum-mode 1)
 
 (provide 'init)
 
