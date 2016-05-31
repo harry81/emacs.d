@@ -7,4 +7,7 @@
 (helm-projectile-on)
 (setq projectile-tags-command "ctags-exuberant -Re -f \"%s\" %s")
 
+(setq projectile-tags-command "ctags-exuberant -Re -f \"%s\" %s")
+
+
 (provide 'init-projectile)
