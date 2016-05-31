@@ -98,6 +98,8 @@
 (require 'init-python-mode)
 (require 'init-venv)
 (require 'init-haskell)
+(unless (version<= emacs-version "24.3")
+  (require 'init-haskell))
 (require 'init-elm)
 (require 'init-ruby-mode)
 (require 'init-rails)
