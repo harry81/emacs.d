@@ -43,3 +43,5 @@ site-lisp/package/
 /viper
 places
 elpa*
+/projectile-bookmarks.eld
+/.python-environments/
