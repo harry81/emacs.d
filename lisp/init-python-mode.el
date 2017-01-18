@@ -4,6 +4,14 @@
               auto-mode-alist))
 
 (require-package 'pip-requirements)
+(require-package 'virtualenvwrapper)
+
+(venv-initialize-interactive-shells) ;; if you want interactive shell support
+(venv-initialize-eshell) ;; if you want eshell support
+(setq venv-location "/home/harry/virtenvs/")
+
+(elpy-enable)
+(setq elpy-rpc-backend "jedi")
 
 (when (maybe-require-package 'anaconda-mode)
   (after-load 'python
