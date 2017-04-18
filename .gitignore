@@ -19,6 +19,7 @@ cookies
 /ac-comphist.dat
 \#*
 /elpa
+/elpa-*
 site-lisp/package/
 /swank
 /.mc-lists.el
@@ -46,3 +47,5 @@ elpa*
 /projectile-bookmarks.eld
 /anaconda-mode/
 /.python-environments/
+/.historian
+/.uptimes.el
