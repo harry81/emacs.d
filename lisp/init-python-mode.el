@@ -16,7 +16,8 @@
 (when (maybe-require-package 'anaconda-mode)
   (after-load 'python
     (add-hook 'python-mode-hook 'anaconda-mode)
-    (add-hook 'python-mode-hook 'anaconda-eldoc-mode))
+    (add-hook 'python-mode-hook 'anaconda-eldoc-mode)
+    (add-hook 'python-mode-hook 'fci-mode))
   (when (maybe-require-package 'company-anaconda)
     (after-load 'company
       (add-hook 'python-mode-hook

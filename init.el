@@ -61,7 +61,8 @@
 (require 'init-ibuffer)
 (require 'init-flycheck)
 
-(require 'init-ido)
+;;(require 'init-ido)
+(require 'init-golden-ratio)
 (require 'init-helm)
 (require 'init-recentf)
 (require 'init-smex)
@@ -105,8 +106,6 @@
 (unless (version<= emacs-version "24.3")
   (require 'init-haskell))
 (require 'init-elm)
-(require 'init-ruby-mode)
-(require 'init-rails)
 (require 'init-sql)
 (require 'init-projectile)
 (require 'init-paredit)
@@ -174,3 +173,4 @@
 ;; no-byte-compile: t
 ;; End:
 
+(put 'scroll-left 'disabled nil)
