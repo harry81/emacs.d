@@ -34,5 +34,6 @@
       (when (sanityinc/fci-enabled-p)
         (turn-on-fci-mode)))))
 
+(setq-default fci-rule-column 100)
 
 (provide 'init-fci)
